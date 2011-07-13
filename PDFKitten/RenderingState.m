@@ -63,7 +63,7 @@
 
 - (void)newLine
 {
-	[self newLineWithLineHeight:self.leadning save:NO];
+	[self newLineWithLineHeight:-1.1 save:NO];
 }
 
 - (void)dealloc
