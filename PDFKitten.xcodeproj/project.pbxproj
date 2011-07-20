@@ -42,6 +42,7 @@
 		2CE7BCEF13897294009784B9 /* Selection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7BCEE13897294009784B9 /* Selection.m */; };
 		4A0655E013D7576F007CDE7A /* Greek.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4A0655DE13D7576F007CDE7A /* Greek.pdf */; };
 		4A0655E113D7576F007CDE7A /* Kurt the Cat.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4A0655DF13D7576F007CDE7A /* Kurt the Cat.pdf */; };
+		4A9CDCEF13D76D4E00AD3816 /* Test.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4A9CDCEE13D76D4E00AD3816 /* Test.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,6 +109,7 @@
 		2CE7BCEE13897294009784B9 /* Selection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Selection.m; path = PDFKitten/Selection.m; sourceTree = SOURCE_ROOT; };
 		4A0655DE13D7576F007CDE7A /* Greek.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Greek.pdf; sourceTree = "<group>"; };
 		4A0655DF13D7576F007CDE7A /* Kurt the Cat.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Kurt the Cat.pdf"; sourceTree = "<group>"; };
+		4A9CDCEE13D76D4E00AD3816 /* Test.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Test.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -293,6 +295,7 @@
 		4A0655DD13D7576F007CDE7A /* Samples */ = {
 			isa = PBXGroup;
 			children = (
+				4A9CDCEE13D76D4E00AD3816 /* Test.pdf */,
 				4A0655DE13D7576F007CDE7A /* Greek.pdf */,
 				4A0655DF13D7576F007CDE7A /* Kurt the Cat.pdf */,
 			);
@@ -356,6 +359,7 @@
 				2CDC3F82138977C1006CC6FB /* PDFDemoViewController.xib in Resources */,
 				4A0655E013D7576F007CDE7A /* Greek.pdf in Resources */,
 				4A0655E113D7576F007CDE7A /* Kurt the Cat.pdf in Resources */,
+				4A9CDCEF13D76D4E00AD3816 /* Test.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

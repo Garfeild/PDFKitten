@@ -204,6 +204,7 @@ void embeddedObject(const char *key, CGPDFObjectRef object, void *info)
 	if (!keyword) return;
 
 	[self.stringDetector reset];
+  [selections removeAllObjects];
 
 	CGPDFPageRef page = CGPDFDocumentGetPage(self.pdfDocument, pageNumber);
 
